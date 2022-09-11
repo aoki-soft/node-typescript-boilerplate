@@ -2,13 +2,14 @@
   "name": "node-typescript-boilerplate",
   "version": "0.0.0",
   "description": "Minimalistic boilerplate to quick-start Node.js development in TypeScript.",
-  "type": "module",
+  "type": "commonjs",
   "engines": {
     "node": ">= 16.13 <17"
   },
   "devDependencies": {
     "@types/jest": "~27.5",
     "@types/node": "~16",
+    "@types/source-map-support": "^0.5.6",
     "@typescript-eslint/eslint-plugin": "~5.26",
     "@typescript-eslint/parser": "~5.26",
     "eslint": "~8.16",
@@ -36,6 +37,8 @@
   "author": "Jakub Synowiec <jsynowiec@users.noreply.github.com>",
   "license": "Apache-2.0",
   "dependencies": {
+    "log4js": "^6.6.1",
+    "source-map-support": "^0.5.21",
     "tslib": "~2.4"
   },
   "volta": {

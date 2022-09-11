@@ -1,3 +1,11 @@
+import { getLogger } from 'log4js';
+import { initLogger } from './logger';
+
+initLogger();
+const logger = getLogger();
+
+logger.info('hello');
+
 /**
  * Some predefined delay values (in milliseconds).
  */
